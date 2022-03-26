@@ -4,8 +4,8 @@ const SRC_DIR = path.join(__dirname, 'client', 'src');
 const OUT_DIR = path.join(__dirname, 'public');
 
 module.exports = {
-  entry: path.join(SRC_DIR, 'index.js'),
-  devtool: 'eval-source-map'
+  entry: path.join(SRC_DIR, 'index.jsx'),
+  devtool: 'eval-source-map',
   output: {
     path: OUT_DIR,
     filename: 'app.js'
